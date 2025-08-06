@@ -12,12 +12,69 @@
   border-radius: 5px;
         }
         .about {
-  background-color:chartreuse; 
+  border: none;
+            max-width: 700px;
+            margin: auto;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+            box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+            animation: fadeIn 1.2s ease-in-out;
+            position: relative;
+            overflow: hidden; 
 }
     .simple{
 
         background-color: aquamarine;
     }
+
+body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+            margin: 0;
+            padding: 20px;
+        }
+        fieldset {
+            border: none;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+            padding: 20px;
+            max-width: 500px;
+            margin: auto;
+            animation: fadeIn 1.2s ease-in-out;
+        }
+        h3 {
+            color: #ff4081;
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background: #fff0f5;
+            margin: 8px 0;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 18px;
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+        li:hover {
+            background: #ffb6c1;
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+        b {
+            color: #d6336c;
+        }
+        @keyframes fadeIn {
+            from {opacity: 0; transform: translateY(20px);}
+            to {opacity: 1; transform: translateY(0);}
+        }
+
         
         
         </style>
@@ -33,10 +90,11 @@
             <td align="center" valign="middle">
          <font size="8" color="white"><b><i>Delicious Ice Cream</i><br></b></font>
          
-        <button>MENU</button>
-      <button>REVIEW</button>
-      <button>LOCATION</button>
-      <button>CONTACT US</button>
+       <a href="newmenu.html"><button>MENU</button></a>
+<a href="newreview.html"><button>REVIEW</button></a>
+<a href="newlocation.html"><button>LOCATION</button></a>
+<a href="newcontactus.html"><button>CONTACT US</button></a>
+
     </td>
   </tr>
 </table>
@@ -69,18 +127,18 @@ At <b>Sweet Scoops Ice Cream</b>, we have something for every ice cream lover!
 Here are some of our best-selling flavors and varieties:  </h4>
 </p>
 
-<fieldset class="simple">
-<h3>
-<ul>
-  <li><b>Classic Flavors:</b> Vanilla, Chocolate, Strawberry, Butterscotch</li>
-  <li><b>Fruit Specials:</b> Mango, Pineapple, Blackcurrant, Litchi</li>
-  <li><b>Premium Delights:</b> Ferrero Rocher, Belgian Chocolate, Red Velvet, Tiramisu</li>
-  <li><b>Nutty Treats:</b> Almond Crunch, Pistachio, Cashew Caramel</li>
-  <li><b>Seasonal Favorites:</b> Tender Coconut, Jackfruit, Fresh Fig</li>
-  <li><b>Frozen Desserts:</b> Sundaes, Milkshakes, Ice Cream Sandwiches, Falooda</li>
-</ul>
-</h3>
+<fieldset>
+    <h3>🍦 Our Delicious Menu 🍦</h3>
+    <ul>
+        <li><b>Classic Flavors:</b> Vanilla, Chocolate, Strawberry, Butterscotch</li>
+        <li><b>Fruit Specials:</b> Mango, Pineapple, Blackcurrant, Litchi</li>
+        <li><b>Premium Delights:</b> Ferrero Rocher, Belgian Chocolate, Red Velvet, Tiramisu</li>
+        <li><b>Nutty Treats:</b> Almond Crunch, Pistachio, Cashew Caramel</li>
+        <li><b>Seasonal Favorites:</b> Tender Coconut, Jackfruit, Fresh Fig</li>
+        <li><b>Frozen Desserts:</b> Sundaes, Milkshakes, Ice Cream Sandwiches, Falooda</li>
+    </ul>
 </fieldset>
+
 <p>
 We also offer <b>custom ice cream cakes</b> and <b>sugar-free options</b> for health-conscious customers.  
 Every scoop is made with love, fresh ingredients, and a promise to make your day sweeter!
